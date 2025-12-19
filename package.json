@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "description": "Trivia tiempo real",
   "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "socket.io": "^4.4.1"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
